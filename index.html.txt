@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to my website!</title>
+</head>
+<body>
+    <h1>This is my first real website!</h1>
+    <p>Website of X3n0m</p>
+</body>
+</html>
