@@ -1,6 +1,5 @@
-HEAD:index.html.txt
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +7,16 @@ HEAD:index.html.txt
     <title>My website</title>
 </head>
 <body>
-    <header>
+    <div class="header">
         <img src="hacker_wallpaper.jpg" alt="Hacker Wallpaper" class="header-image">
-        <h1 class="title">Welcome to My website</h1>
-    </header>
+        <div class="overlay"></div>
+        <h1 class="title">Welcome to My-website</h1>
+    </div>
 
-    <main>
-        <div class="link-container">
-            <a href="about.html" class="page-link">About Me</a>
-            <a href="projects.html" class="page-link">Projects</a>
-            <a href="contact.html" class="page-link">Contact</a>
-        </div>
-    </main>
+    <div class="content">
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </div>
 </body>
 </html>
