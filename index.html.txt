@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to my website!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My website</title>
 </head>
 <body>
-    <h1>This is my first real website!</h1>
-    <p>Website of X3n0m</p>
+    <header>
+        <img src="https://wallpaperaccess.com/full/1211082.jpg" alt="Hacker Wallpaper" class="header-image">
+        <h1 class="title">Welcome to My website</h1>
+    </header>
+
+    <main>
+        <div class="link-container">
+            <a href="about.html" class="page-link">About Me</a>
+            <a href="projects.html" class="page-link">Projects</a>
+            <a href="contact.html" class="page-link">Contact</a>
+        </div>
+    </main>
 </body>
 </html>
